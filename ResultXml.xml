@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TXLife xmlns="http://ACORD.org/Standards/Life/2">
+    <UserAuthRequest>
+        <UserLoginName>mobile</UserLoginName>
+    </UserAuthRequest>
+    <TXLifeRequest>
+        <TransRefGUID>MONDEC15155431IST2014</TransRefGUID>
+        <TransType tc="103">New Business Submission</TransType>
+        <TransExeDate>2014-12-15+05:30</TransExeDate>
+        <TransExeTime>03:54:31.000+05:30</TransExeTime>
+        <OLifE>
+            <Holding id="Holding_1">
+                <HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+                <HoldingName>LIFE</HoldingName>
+                <Policy>
+                    <ProductCode>7PAP</ProductCode>
+                    <PlanName>PRUlink one</PlanName>
+                    <PolicyValue>250000</PolicyValue>
+                    <PaymentMode tc="4">Monthly</PaymentMode>
+                    <PaymentAmt>400</PaymentAmt>
+                    <PaymentMethod tc="7">Electronic Funds Transfer</PaymentMethod>
+                    <DisabilityHealth>
+                        <MaxBenefitDuration>71</MaxBenefitDuration>
+                        <MaxBenefitDurPeriod tc="42">Years</MaxBenefitDurPeriod>
+                    </DisabilityHealth>
+                    <ApplicationInfo>
+                        <TrackingID>400000048</TrackingID>
+                        <SubmissionDate>2014-12-29+05:30</SubmissionDate>
+                        <ApplicationCollectionDate>2014-12-29+05:30</ApplicationCollectionDate>
+                        <DisclosureInd tc="1">True</DisclosureInd>
+                        <OLifEExtension VendorCode="PAMB">
+                            <PolicyStatus tc="8">Pending</PolicyStatus>
+                        </OLifEExtension>
+                    </ApplicationInfo>
+                    <KeyedValue>
+                        <KeyName>PolDocInd</KeyName>
+                        <VendorCode>PAMB</VendorCode>
+                        <KeyValue>N</KeyValue>
+                    </KeyedValue>
+                    <KeyedValue>
+                        <KeyName>SpfYlpInd</KeyName>
+                        <VendorCode>PAMB</VendorCode>
+                        <KeyValue>Yes</KeyValue>
+                    </KeyedValue>
+                </Policy>
+                <Attachment>
+                    <DateCreated>2014-12-07+05:30</DateCreated>
+                    <AttachmentBasicType tc="3">File</AttachmentBasicType>
+                    <MimeTypeTC tc="11">image/tiff</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="6">Binary</TransferEncodingTypeTC>
+                    <AttachmentLocation tc="3">Multipart MIME</AttachmentLocation>
+                    <FileName>PRUDOCTEMP_400000048_ylp.tiff</FileName>
+                    <AttachmentHashType tc="1">MD5</AttachmentHashType>
+                    <OLifEExtension VendorCode="PAMB">
+                        <ProviderFormNumber>2</ProviderFormNumber>
+                    </OLifEExtension>
+                </Attachment>
+                <Attachment>
+                    <DateCreated>2014-12-07+05:30</DateCreated>
+                    <AttachmentBasicType tc="3">File</AttachmentBasicType>
+                    <MimeTypeTC tc="11">image/tiff</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="6">Binary</TransferEncodingTypeTC>
+                    <AttachmentLocation tc="3">Multipart MIME</AttachmentLocation>
+                    <FileName>PRUDOCTEMP_400000048_prop.tiff</FileName>
+                    <AttachmentHashType tc="1">MD5</AttachmentHashType>
+                    <OLifEExtension VendorCode="PAMB">
+                        <ProviderFormNumber>1</ProviderFormNumber>
+                    </OLifEExtension>
+                </Attachment>
+                <Attachment>
+                    <DateCreated>2014-12-07+05:30</DateCreated>
+                    <AttachmentBasicType tc="3">File</AttachmentBasicType>
+                    <MimeTypeTC tc="11">image/tiff</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="6">Binary</TransferEncodingTypeTC>
+                    <AttachmentLocation tc="3">Multipart MIME</AttachmentLocation>
+                    <FileName>PRUDOCTEMP_400000048_si.tiff</FileName>
+                    <AttachmentHashType tc="1">MD5</AttachmentHashType>
+                    <OLifEExtension VendorCode="PAMB">
+                        <ProviderFormNumber>3</ProviderFormNumber>
+                    </OLifEExtension>
+                </Attachment>
+                <Arrangement>
+                    <ArrType tc="37">Standing Allocation</ArrType>
+                    <ArrDestination>
+                        <TransferPct>100.0</TransferPct>
+                        <SubAcctName>PE</SubAcctName>
+                    </ArrDestination>
+                </Arrangement>
+            </Holding>
+            <Party id="Party_1">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <FullName>Johny</FullName>
+                <GovtID>861228444444</GovtID>
+                <GovtIDTC tc="10">Citizenship ID</GovtIDTC>
+                <IDReferenceNo>3457788</IDReferenceNo>
+                <IDReferenceType tc="4">National ID</IDReferenceType>
+                <Person>
+                    <Title>Mrs</Title>
+                    <MarStat tc="1">Married</MarStat>
+                    <Gender tc="2">Female</Gender>
+                    <DOBEstimated tc="0">False</DOBEstimated>
+                    <Age>29</Age>
+                    <Citizenship tc="376">ANDORRA</Citizenship>
+                    <Height2>
+                        <MeasureUnits tc="1">CMS</MeasureUnits>
+                        <MeasureValue>111.0</MeasureValue>
+                        <HeightMeasuredInd tc="1">True</HeightMeasuredInd>
+                    </Height2>
+                    <Weight2>
+                        <MeasureUnits tc="1">KG</MeasureUnits>
+                        <MeasureValue>111.0</MeasureValue>
+                        <WeightMeasuredInd tc="1">True</WeightMeasuredInd>
+                    </Weight2>
+                    <RestrictionInd tc="1">True</RestrictionInd>
+                    <RestrictionReason tc="3">No Disclosure</RestrictionReason>
+                    <EthnicType tc="1100000005">Eura</EthnicType>
+                    <KeyedValue>
+                        <KeyName>MuslimInd</KeyName>
+                        <VendorCode>PAMB</VendorCode>
+                        <KeyValue>No</KeyValue>
+                    </KeyedValue>
+                </Person>
+                <Address id="Address_1">
+                    <AddressTypeCode tc="1">Residence</AddressTypeCode>
+                    <Line1>Cir</Line1>
+                    <Line2>Correct</Line2>
+                    <Line3>Corr</Line3>
+                    <AddressState>WP Kuala Lumpur</AddressState>
+                    <Zip>43211</Zip>
+                    <AddressCountryTC tc="60">Malaysia</AddressCountryTC>
+                </Address>
+                <Phone id="Phone_1">
+                    <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <Phone id="Phone_2">
+                    <PhoneTypeCode tc="2">Bussiness</PhoneTypeCode>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <Phone id="Phone_3">
+                    <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+                    <DialNumber>9999757865788</DialNumber>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <Attachment>
+                    <AttachmentBasicType tc="3">File</AttachmentBasicType>
+                    <MimeTypeTC tc="17">application/pdf</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="6">Binary</TransferEncodingTypeTC>
+                    <AttachmentLocation tc="3">Multipart MIME</AttachmentLocation>
+                    <FileName>smartCollage.pdf</FileName>
+                    <AttachmentHashType tc="1">MD5</AttachmentHashType>
+                    <OLifEExtension VendorCode="PAMB">
+                        <ProviderFormNumber>10601001</ProviderFormNumber>
+                    </OLifEExtension>
+                </Attachment>
+                <EMailAddress>
+                    <EMailType tc="4">Client Customer Service Email</EMailType>
+                </EMailAddress>
+                <Risk/>
+            </Party>
+            <Party id="Party_2">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <FullName>John</FullName>
+                <GovtID>741228999999</GovtID>
+                <GovtIDTC tc="10">Citizenship ID</GovtIDTC>
+                <IDReferenceNo>34567</IDReferenceNo>
+                <IDReferenceType tc="4">National ID</IDReferenceType>
+                <Person>
+                    <Title>Mr</Title>
+                    <MarStat tc="1">Married</MarStat>
+                    <Gender tc="1">Male</Gender>
+                    <DOBEstimated tc="0">False</DOBEstimated>
+                    <Age>41</Age>
+                    <Citizenship tc="60">Malaysia</Citizenship>
+                    <Height2>
+                        <MeasureUnits tc="1">CMS</MeasureUnits>
+                        <MeasureValue>111.0</MeasureValue>
+                        <HeightMeasuredInd tc="1">True</HeightMeasuredInd>
+                    </Height2>
+                    <Weight2>
+                        <MeasureUnits tc="1">KG</MeasureUnits>
+                        <MeasureValue>111.0</MeasureValue>
+                        <WeightMeasuredInd tc="1">True</WeightMeasuredInd>
+                    </Weight2>
+                    <RestrictionInd tc="1">True</RestrictionInd>
+                    <RestrictionReason tc="3">No Disclosure</RestrictionReason>
+                    <EthnicType tc="1100000002">Chinese</EthnicType>
+                    <KeyedValue>
+                        <KeyName>MuslimInd</KeyName>
+                        <VendorCode>PAMB</VendorCode>
+                        <KeyValue>No</KeyValue>
+                    </KeyedValue>
+                </Person>
+                <Address id="Address_2">
+                    <AddressTypeCode tc="1">Residence</AddressTypeCode>
+                    <Line1>Cir</Line1>
+                    <Line2>Correct</Line2>
+                    <Line3>Corr</Line3>
+                    <AddressState>WP Kuala Lumpur</AddressState>
+                    <Zip>43211</Zip>
+                    <AddressCountryTC tc="60">Malaysia</AddressCountryTC>
+                </Address>
+                <Phone id="Phone_4">
+                    <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+                    <DialNumber>555555</DialNumber>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <Phone id="Phone_5">
+                    <PhoneTypeCode tc="2">Bussiness</PhoneTypeCode>
+                    <DialNumber>55666666</DialNumber>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <Phone id="Phone_6">
+                    <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+                    <DialNumber>555555555555</DialNumber>
+                    <PhoneCountryTC tc="60">Malaysia</PhoneCountryTC>
+                </Phone>
+                <EMailAddress>
+                    <EMailType tc="4">Client Customer Service Email</EMailType>
+                    <AddrLine>Email@cc.com</AddrLine>
+                </EMailAddress>
+                <Risk/>
+            </Party>
+            <Party id="Party_3">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <FullName>CHEAH JOON TING</FullName>
+                <Producer>
+                    <NIPRNumber>1069611</NIPRNumber>
+                    <CarrierAppointment>
+                        <CarrierAppointmentCode>MK00004</CarrierAppointmentCode>
+                        <DistributionAgreementInfo>
+                            <BackDatingAllowedInd tc="0">False</BackDatingAllowedInd>
+                        </DistributionAgreementInfo>
+                    </CarrierAppointment>
+                </Producer>
+            </Party>
+            <Party id="Party_4">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <FullName>Ram Manohar Lohia</FullName>
+                <Producer>
+                    <CarrierAppointment>
+                        <CarrierAppointmentCode>MK00005</CarrierAppointmentCode>
+                    </CarrierAppointment>
+                </Producer>
+            </Party>
+            <Relation id="Relation_1" OriginatingObjectID="Holding_1" RelatedObjectID="Party_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="32">Insured</RelationRoleCode>
+            </Relation>
+            <Relation id="Relation_3" OriginatingObjectID="Holding_1" RelatedObjectID="Party_2">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="25">Owned By</RelationRoleCode>
+            </Relation>
+            <Relation id="Relation_4" OriginatingObjectID="Holding_1" RelatedObjectID="Party_3">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="11">Agent</RelationRoleCode>
+                <InterestPercent>50.0</InterestPercent>
+                <Sequence>1</Sequence>
+            </Relation>
+            <Relation id="Relation_5" OriginatingObjectID="Holding_1" RelatedObjectID="Party_4">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="11">Agent</RelationRoleCode>
+                <InterestPercent>50.0</InterestPercent>
+                <Sequence>2</Sequence>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>
